@@ -1,8 +1,8 @@
 [workspace]
-members = [
-    "01_intro/*",
-    "02_basic_calculator/*"
-]
+members = ["exercises/*/*", "helpers/common", "helpers/mdbook-exercise-linker", "helpers/ticket_fields"]
+
+resolver = "2"
+
 
 [profile.dev.package.copy]
 overflow-checks = true
