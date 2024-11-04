@@ -1,3 +1,4 @@
+#![allow(unused)]
 mod ticket {
     pub struct Ticket {
         title: String,

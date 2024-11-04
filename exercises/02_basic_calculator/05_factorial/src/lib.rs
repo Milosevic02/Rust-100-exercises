@@ -1,3 +1,4 @@
+#![allow(unused)]
 // Define a function named `factorial` that, given a non-negative integer `n`,
 // returns `n!`, the factorial of `n`.
 //

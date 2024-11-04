@@ -1,3 +1,4 @@
+#![allow(unused)]
 fn intro() -> &'static str {
     // TODO: fix me 👇
     "I'm ready to start modelling a software ticket!"

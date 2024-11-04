@@ -1,3 +1,4 @@
+#![allow(unused)]
 struct Ticket {
     title: String,
     description: String,

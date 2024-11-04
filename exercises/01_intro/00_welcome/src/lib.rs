@@ -1,3 +1,4 @@
+#![allow(unused)]
 // This is a Rust file. It is a plain text file with a `.rs` extension.
 //
 // Like most modern programming languages, Rust supports comments. You're looking at one right now!
