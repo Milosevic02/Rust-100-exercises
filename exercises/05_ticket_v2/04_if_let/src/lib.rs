@@ -1,3 +1,4 @@
+#![allow(unused)]
 enum Shape {
     Circle { radius: f64 },
     Square { border: f64 },
@@ -7,9 +8,23 @@ enum Shape {
 impl Shape {
     // TODO: Implement the `radius` method using
     //  either an `if let` or a `let/else`.
+
+    //if let
     pub fn radius(&self) -> f64 {
-        todo!()
+        if let Shape::Circle { radius } = self{
+            *radius
+        }else{
+            panic!("Not a circle");
+        }
     }
+
+    //let/else
+    //pub fn radius(&self) -> f64 {
+    //    let Shape::Circle { radius } = &self else{
+    //        panic!("Not Circle");
+    //    };
+    //    *radius
+    //}    
 }
 
 #[cfg(test)]
