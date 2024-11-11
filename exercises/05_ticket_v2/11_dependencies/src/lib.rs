@@ -1,3 +1,4 @@
+#![allow(unused)]
 // TODO: Add `anyhow` as a dependency of this project.
 //  Don't touch this import!
 
